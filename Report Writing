@@ -1,0 +1,51 @@
+Report on insights of the COVID-19 dataset:
+
+    1.Basic Information about the Dataset:
+      a.)The dataset has 187 entries (rows) and 15 columns.
+      b.)There are no missing values in any of the columns.
+
+    2.Statistical Summary of Numerical Columns:
+      a.)Confirmed Cases: Ranges from 10 to 4,290,259, with a median of 5,059 and a mean of 88,130.94. This indicates a wide range of cases among different countries.
+      b.)Deaths: Ranges from 0 to 148,011, with a median of 108 and a mean of 3,497.52. This also shows a significant variation across countries.
+      c.)Recovered: Ranges from 0 to 1,846,641, with a median of 2,815 and a mean of 50,631.48.
+      d.)New Cases and New Deaths: These columns have a wide range, indicating significant daily variations among countries.
+      e.)Deaths / 100 Cases and Recovered / 100 Cases: The average percentage of deaths per 100 confirmed cases is about 3.02%, while the average recovery rate is approximately 64.82%.
+      f.)1 Week % Increase: This shows the percentage increase in confirmed cases over the last week, with values ranging from -3.84% to 226.32%.
+
+Notably, some columns have a max value of "inf" or "NaN", suggesting that some countries might have a "Death / 100 Recovered" ratio that results in infinity, possibly due to zero recoveries when deaths are present.
+
+     3. Confirmed Cases, Deaths, and Recoveries:
+       a.)Confirmed Cases: There is a significant variation in the number of confirmed cases across different countries. The range is quite broad, from as low as 10 to over 4 million cases.
+       b.)Deaths: Similarly, the number of deaths also varies widely, with some countries reporting zero deaths and others reporting up to 148,011 deaths.
+       c.)Recovered Cases: The number of recovered cases also varies significantly. Some countries have zero recoveries reported, while others have recovered up to 1.8 million cases.
+
+     4.New Cases and Deaths:
+       a.)New Cases: The daily new cases range from 0 to 56,336, showing that some countries experience very high daily spikes, while others report no new cases at all.
+       b.)New Deaths: This also varies, with some countries reporting zero new deaths and others up to 1,076 in a single day.
+
+     5.Percentage Metrics:
+       a.)Deaths per 100 Cases: The average is around 3%, but this varies from 0% to as high as 28.56%, indicating a varying severity of the disease or differences in healthcare quality and capacity across regions.
+       b.)Recovered per 100 Cases: On average, about 64.82% of cases result in recovery, with some countries reporting a perfect 100% recovery rate and others reporting much lower rates.
+
+     6.1 Week Changes:
+       a.)1 Week % Increase: Some countries have a significant weekly increase in cases, up to 226.32%, suggesting rapid outbreaks or improved detection rates, while others have seen a decrease, indicating control over the spread.
+
+     7.Regional Differences:
+        a.)WHO Region: The data includes countries from various WHO regions, and different regions might show different trends due to geographical, socio-economic, and political factors affecting the spread and management of COVID-19.
+These insights help understand the global variation in the spread and impact of COVID-19, highlighting the differences in outbreaks, responses, and outcomes across different countries and regions. 
+
+      8.Basic Statistics:
+         a.) Mean (Average) Values:
+                Confirmed Cases: 88,130.94
+                Deaths: 3,497.52
+                Recovered: 50,631.48
+         b.)Median Values:
+                Confirmed Cases: 5,059
+                Deaths: 108
+                Recovered: 2,815
+         c.)Standard Deviation:
+                Confirmed Cases: 382,292.37 (indicating a wide variation in the number of confirmed cases across different countries)
+                Deaths: 14,062.25 (showing variability in death counts) 
+                Recovered: 189,678.98 (indicating different recovery rates across countries)
+          d.)Correlation:
+                Correlation between Confirmed Cases and Deaths: 0.93 (a strong positive correlation, meaning that generally, as the number of confirmed cases increases, the number of deaths also tends to increase)
